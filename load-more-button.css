@@ -1,0 +1,114 @@
+p {
+    margin: 0 0 10px;
+    font-family: 'Roboto', sans-serif;
+}
+p, pre {
+    margin: 0 0 1em 0;
+}
+a, a:link, a:focus, a:active, a:visited {
+    outline: 0;
+}
+a, a:link, a:focus, a:active, a:visited {
+    outline: 0;
+}
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+.interior.container .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.blogBox {
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+.blogBox .item {
+    background: #f4f4f4;
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    height: 100%;
+}
+.blogBox .item:hover {
+    background: #e8e8e8;
+    cursor: pointer;
+}
+.blogBox .item img {
+    width: 100%;
+}
+.blogBox .item p {
+    padding-bottom: 40px;
+}
+.blogBox .item .blogTxt {
+    padding: 25px;
+}
+.blogBox .item h2 {
+    margin: 15px 0;
+    font-family: 'Roboto', sans-serif;
+}
+.blogBox .item .blogCategory a {
+    padding: 5px 10px 2px;
+    border: 1px solid #616161;
+    color: #616161;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+}
+.blogBox .item .blogCategory a:hover {
+    background: #616161;
+    color: #fff;
+    text-decoration: none;
+}
+
+#loadMore {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+#loadMore a {
+    background: #042a63;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    transition: all 0.25s ease-out;
+    -webkit-font-smoothing: antialiased;
+}
+#loadMore a:hover {
+    background-color: #021737;
+}
+
+@media screen and (min-width: 1200px) {
+	.blogBox .featured h2 {
+		font-size: 42px;
+	}
+}
+@media screen and (min-width: 991px) {
+	.blogBox .featured h2 {
+		font-size: 30px;
+		font-style: italic;
+	}	
+	.blogBox .featured .blogTxt {
+		max-width: 50%;
+		width: 100%;
+		padding: 50px;
+		float: left;
+		background: inherit;
+		min-height: 378px;
+	}
+	.blogBox .featured img {
+		max-width: 50%;
+		width: 100%;
+		float: left;
+		min-height: 378px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.blogBox .item img {
+		height: 152px;
+	}
+}
